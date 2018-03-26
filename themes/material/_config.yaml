@@ -163,23 +163,23 @@ sidebar:
         divider: false
     pages:
         "图库":
-            link: "/gallery"
+            link: "/blog/gallery/"
             icon: camera_enhance
             divider: false
         "时间轴":
-            link: "/timeline"
+            link: "/blog/timeline/"
             icon: timeline
             divider: false
         "关于我":
-            link: "/about"
+            link: "/blog/about/"
             icon: person
             divider: false
         "标签云":
-            link: "/tags"
+            link: "/blog/tags/"
             icon: bookmark
             divider: false
         "友情链接":
-            link: "/links"
+            link: "/blog/links/"
             icon: grade
             divider: false
     article_num:
