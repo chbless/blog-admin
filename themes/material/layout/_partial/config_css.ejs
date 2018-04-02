@@ -4,6 +4,11 @@
 <style>
   body, html {
     font-family: <%- theme.fonts.family %>;
+    overflow-x: hidden !important;
+  }
+  
+  code {
+    font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
   }
 
   a {
@@ -70,7 +75,6 @@
     <style>
       body {
         background-color: <%= theme.background.purecolor %>;
-        background-image: url(https://api.i-meto.com/bing?<%= theme.background.bing.parameter %>);
       }
 
       /* blog_info bottom background */
